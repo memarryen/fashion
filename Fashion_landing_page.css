@@ -11,20 +11,19 @@
 }
 body {
     margin: 0;
-}
-.container {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
     background-color: #FFF4CC;
 }
+.container {
+    width: 100%;
+}
 .inner-container {
-    margin: 10%;
+    margin: 4% 10% 4% 10%;
     background-color: #FFFFFF;
 }
 header {
     display: flex;
     align-items: center;
+    padding-top: 4%;
 }
 .brand-name {
     font-family: dmsans;
@@ -54,6 +53,7 @@ section {
 }
 .text-div {
     width: 40%;
+    margin-top: 6%;
 }
 .title {
     font-family: playfairdisplay;
@@ -77,12 +77,13 @@ section {
     font-family: dmsans;
     font-weight: 700;
     font-size: 24px;
-    padding: 2% 8%;
-    margin: 20%;
+    padding: 3% 11%;
+    margin: 13% 17% 17% 17%;
 }
 .img-div {
     position: absolute;
     margin-left: 35%;
+    margin-top: 4.5%;
     background-color: #FBF0E3;
     width: 40%;
     
@@ -92,5 +93,5 @@ section {
     margin: 10% 10% 0% 10%;
 }
 .girl {
-    margin: 10% 10% 0% 10%;
+    margin: 20% 20% 0% 20%;
 }
