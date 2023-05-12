@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: dmsans;
+    src: url(DMSans.ttf);
+}
+@font-face {
+    font-family: playfairdisplay;
+    src: url(PlayfairDisplay.ttf);
+}
+body {
+    margin: 0;
+}
+.container {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF4CC;
+}
+.inner-container {
+    margin: 10%;
+    background-color: #FFFFFF;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+.brand-name {
+    font-family: dmsans;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 30%;
+    padding-left: 5%;
+}
+nav {
+    display: flex;
+    padding-right: 25%;
+}
+.homepage, .product-page, .brands-page, .blog-page {
+    font-family: dmsans;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    padding-right: 20%;
+}
+.search-page, .cart-page {
+    padding-right: 1%;
+}
+section {
+    display: flex;
+    align-items: center;
+}
+.text-div {
+    width: 40%;
+}
+.title {
+    font-family: playfairdisplay;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+    padding-left: 20%;
+}
+.article {
+    font-family: playfairdisplay;
+    font-weight: 600;
+    font-size: 16px;
+    color: #4A4545;
+    padding-left: 17%;
+}
+.collection-button {
+    border: none;
+    background: #E96302;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: dmsans;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 2% 8%;
+    margin: 20%;
+}
+.img-div {
+    position: absolute;
+    margin-left: 35%;
+    background-color: #FBF0E3;
+    width: 40%;
+    
+}
+.img-background-div {
+    background-color: #FAA644;
+    margin: 10% 10% 0% 10%;
+}
+.girl {
+    margin: 10% 10% 0% 10%;
+}
